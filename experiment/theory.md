@@ -1,46 +1,8 @@
-### HIGH PERFORMANCE THIN LAYER CHROMATOGRAPHY (HPTLC)
-- HPTLC is an advanced and automated form of TLC that provides superior separation power and suitable for qualitative and quantitative analytical tasks.
+Embelin, (2, 5-dihydroxy-3-undecyl-p-benzoquinone), is a naturally occuring alkyl substituted hydroxyl benzoquinone and produced by plants of the family Myrsinaceae. Quinones constitute one of the earliest known groups of naturally occurring organic compounds and are ubiquitous in nature. The major attraction was their color, but the recent interest in them is due to their biological activities (1). They are implicated in numerous cellular functions and are involved in mechanisms of electron and hydrogen transfers. Quinones form a large class of antitumour agents approved for clinical use, and many other antitumour quinones are in different stages of clinical and preclinical development (2).
 
-- It is a flexible, versatile and economical process in which the various stages are carried out independently.
+Benzoquinones are the simplest representatives of quinone group. Embelin
+(derivative of benzoquinone) is found to be the active principle of Embelia ribes. Embelin is a pharmacologically active substance and posses antifertility (3), analgesic (4), anthelmintic (5), antimicrobial (6), anti-inflammatory, antioxidant and antitumour properties (7).
 
-- It promotes for sample preparation requirements are often minimal, simultaneous processing of sample and standard, no prior treatment for solvents like filtration and degassing, higher separation efficiencies, shorter analysis time, less consumption of mobile phase, visual detection possible, efficient data acquisition and processing, low cost per analysis and low maintenance cost of the instrument.
+![Project Screenshot](images/theory_Exp_9.jpg)
 
-- It is a valuable tool for reliable identification as it provides chromatographic fingerprints that can be visualized and stored as electronic images.
-It has strong potentials as a substitute chromatographic model for estimating partitioning properties in support of combinatorial chemistry, environmental fate and health effect studies.
-
-### PRINCIPLE OF HPTLC CHROMATOGRAPHIC SEPARATION
-
-It relates with the conventional TLC Chromatographic separations
-
-![Project Screenshot](images/hptlc.png)
-
-### RETARDATION FACTOR (Rf)
-
-Rf is the characteristic feature of the each component and become the basis of qualitative separation. The retardation factor describes the ratio of time of the component spent in the stationary phase relative to the mobile phase.
-Rf = Distance travelled by the solute (d1)
-Distance travelled by the solvent (d2)
-
-### FACTORS AFFECTING Rf VALUE
-
-<table>
-<tr>
-<td width="60%">
-
-- Polarity of solvent system
-- Absorbent (types, grain size, water content, thickness)
-- Amount of material spotted
-- Temperature
-- Solvent purity
-- Saturation time of solvent chamber
-- pH Acidic/Basic
-- Humidity
-
-</td>
-
-<td width="40%">
-
-![Project Screenshot](images/Final_Gif_Short.gif)
-
-</td>
-</tr>
-</table>
+Embelin has a long alkyl chain (undecyl) as a substituent, which confers solubility in the non-polar phase and cell permeability. The adjacent quinone and hydroquinone groups on embelin form intramolecular hydrogen bonds. It is insoluble in water and soluble in alcohol, chloroform and benzene.
