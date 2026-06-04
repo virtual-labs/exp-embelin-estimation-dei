@@ -12,4 +12,35 @@ It has strong potentials as a substitute chromatographic model for estimating pa
 
 It relates with the conventional TLC Chromatographic separations
 
-![Project Screenshot](images/screenshot.png)
+![Project Screenshot](images/hptlc.png)
+
+### RETARDATION FACTOR (Rf)
+
+Rf is the characteristic feature of the each component and become the basis of qualitative separation. The retardation factor describes the ratio of time of the component spent in the stationary phase relative to the mobile phase.
+Rf = Distance travelled by the solute (d1)
+Distance travelled by the solvent (d2)
+
+### FACTORS AFFECTING Rf VALUE
+
+<table>
+<tr>
+<td width="60%">
+
+- Polarity of solvent system
+- Absorbent (types, grain size, water content, thickness)
+- Amount of material spotted
+- Temperature
+- Solvent purity
+- Saturation time of solvent chamber
+- pH Acidic/Basic
+- Humidity
+
+</td>
+
+<td width="40%">
+
+![Project Screenshot](images/Final_Gif_Short.gif)
+
+</td>
+</tr>
+</table>
