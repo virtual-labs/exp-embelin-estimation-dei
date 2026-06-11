@@ -9,7 +9,63 @@
       </p>
     </td>
     <td width="150">
-      <img src="image.png" alt="Arduino Uno" width="120">
+      <img src="images/Procedure_9_img1.jpg" alt="img1" width="120">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+        Sonicated for 8 hrs
+      </p>
+    </td>
+    
+  </tr>
+  <tr>
+    <td>
+      <p>
+        Solvent extract
+      </p>
+    </td>
+    <td width="150">
+      <img src="images/Procedure_9_img2.jpg" alt="img1" width="120">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+          Filter
+      </p>
+    </td>
+   
+  </tr>
+  <tr>
+    <td>
+      <p>
+        Filtrate 
+      </p>
+    </td>
+    <td width="150">
+      <img src="images/Procedure_9_img3.jpg" alt="img1" width="120">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+        Rota vapour (Distillation under reduced pressure)
+      </p>
+    </td>
+    <td width="150">
+      <img src="images/Procedure_9_img4.jpg" alt="img1" width="120">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+        Crude extracts
+      </p>
+    </td>
+    <td width="150">
+      <img src="images/Procedure_9_img5.jpg" alt="img1" width="120">
     </td>
   </tr>
 </table>
