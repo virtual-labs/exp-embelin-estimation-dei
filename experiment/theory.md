@@ -21,3 +21,38 @@ Benzoquinones are the simplest representatives of quinone group. Embelin
 ![Project Screenshot](images/theory_Exp_9.jpg)
 
 Embelin has a long alkyl chain (undecyl) as a substituent, which confers solubility in the non-polar phase and cell permeability. The adjacent quinone and hydroquinone groups on embelin form intramolecular hydrogen bonds. It is insoluble in water and soluble in alcohol, chloroform and benzene.
+
+
+### Observation
+
+
+Use of pre-coated silica gel HPTLC plates with n propanol :n butanol : ammonia :: ,7: 1: 4 ,resulted in good separation of the embelin at 333nm (Rf = 0.68). The absence of additional peaks in chromatogram indicates non- interference of the common excipients used. Regression analysis of the calibration data for caffeine showed that the dependent variable (peak area) and the independent variable (concentration) were represented by the equations Y = – 191.213 + 2.518 x for embelin in Embelia ribes and tamarind. The correlation of coefficient (r2) obtained was 0.99971 shows a good linear relationship.
+
+![Project Screenshot](images/obs_exp9_1)
+
+Fig. 1: Image at 254nm
+
+![Project Screenshot](images/obs_exp9_2)
+
+Fig. 2: Image at 366 nm
+
+![Project Screenshot](images/obs_exp9_3)
+
+Fig. 3: 3D view of Embelin in different samples
+
+![Project Screenshot](images/obs_exp9_4)
+
+Fig. 4: Chromatogram for embelin
+
+![Project Screenshot](images/obs_exp9_5)
+
+Fig. 5: Linearity graph for Embelin
+
+### Results:
+
+**Table 1: Quantification of the Embelin values in Samples**
+
+| S. No. | Sample        | Amount of Embelin (mg/kg) |
+|---------|--------------|---------------------------|
+| 1       | Embelia ribes | 1.939                     |
+| 2       | Tamarind      | 1.073                     |
