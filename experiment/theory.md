@@ -28,25 +28,30 @@ Embelin has a long alkyl chain (undecyl) as a substituent, which confers solubil
 
 Use of pre-coated silica gel HPTLC plates with n propanol :n butanol : ammonia :: ,7: 1: 4 ,resulted in good separation of the embelin at 333nm (Rf = 0.68). The absence of additional peaks in chromatogram indicates non- interference of the common excipients used. Regression analysis of the calibration data for caffeine showed that the dependent variable (peak area) and the independent variable (concentration) were represented by the equations Y = – 191.213 + 2.518 x for embelin in Embelia ribes and tamarind. The correlation of coefficient (r2) obtained was 0.99971 shows a good linear relationship.
 
-![Project Screenshot](images/obs_exp9_1)
+![Project Screenshot](images/obs_exp9_1.jpg)
 
 Fig. 1: Image at 254nm
 
-![Project Screenshot](images/obs_exp9_2)
+
+![Project Screenshot](images/obs_exp9_2.jpg)
 
 Fig. 2: Image at 366 nm
 
-![Project Screenshot](images/obs_exp9_3)
+
+![Project Screenshot](images/obs_exp9_3.jpg)
 
 Fig. 3: 3D view of Embelin in different samples
 
-![Project Screenshot](images/obs_exp9_4)
+
+![Project Screenshot](images/obs_exp9_4.jpg)
 
 Fig. 4: Chromatogram for embelin
 
-![Project Screenshot](images/obs_exp9_5)
+
+![Project Screenshot](images/obs_exp9_5.jpg)
 
 Fig. 5: Linearity graph for Embelin
+
 
 ### Results:
 
