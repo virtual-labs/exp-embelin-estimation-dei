@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "f value is less than one because",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Distance covered by the solute is more than solvent front",
+        "b": "Distance covered by solvent front is more than distance covered by solute",
+        "c": "Both of them",
+        "d": "None of them"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +19,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": " Rf value is closed to 1, then what happened",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Good Separation occurs  ",
+        "b": "No Separation occurs",
+        "c": "Separation doesnot depend on Rf ",
+        "d": "None of them"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,8 +32,63 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
+  ]
+   "questions": [
+    {
+      "question": "Rf value is affected by",
+      "answers": {
+        "a": "Polarity of solvent ",
+        "b": "Saturation period of chamber",
+        "c": "pH of the solution",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If TLC spots are too high, i.e., too near the solvent front then what can I do now?",
+      "answers": {
+        "a": "Increase the polarity of solvent",
+        "b": "Decrease the polarity of solvent",
+        "c": "Increase the plate size",
+        "d": "All above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+   "questions": [
+    {
+      "question": "Do impurities affect the Rf values?",
+      "answers": {
+        "a": "Yes, always",
+        "b": "Yes, sometimes",
+        "c": "No ",
+        "d": "None"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
   ]
 }
