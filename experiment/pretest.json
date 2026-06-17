@@ -34,9 +34,7 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
-    }
-  ]
-   "questions": [
+    },
     {
       "question": "Rf value is affected by",
       "answers": {
@@ -70,9 +68,7 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
-    }
-  ]
-   "questions": [
+    },
     {
       "question": "Do impurities affect the Rf values?",
       "answers": {
@@ -89,6 +85,6 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
-    },
+    }
   ]
 }
