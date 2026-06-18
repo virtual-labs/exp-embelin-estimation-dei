@@ -1,1 +1,7 @@
-### Link your references in here
+- Nohl H, Jordan W and Youngman R.J, Quinones in biology: Functions in electron transfer and oxygen activation, Advan. in Free Rad. Bio. and Med., 2 (1), 211–279 (1986).
+- Ravelo A.G, Estevez Braun A, Chavez Orellana H, Perez Sacau E and Mesa Siverio D, Curr. Top. Med. Chem., 4, 241–265 (2004).
+- Krishnaswamy M and Purushothaman K.K, Antifertility properties of Embelia ribes, Ind. J. Exp. Biol. 18, 638–639 (1980).
+- Chitra M, Devi C.S and Sukumar E, Antibacterial activity of Embelin, Fitoterap. 74, 401–403 (2003).
+- Chander H and Ahmed S.M, Comparative evaluation of fungicidal quinones and natural embelin against some insect pests of storage, J. Stored Prod. Res. 25, 81–91 (1989).
+- Chitra M, Sukumar E, Suja V and Devi C.S, Antitumour, antinflammatory and analgesic property of embelin, a plant product, Chemothera., 40, 109–113 (1994).
+- Mori T, Doi R, Kida A, Nagai K, Kami K, Ito D, Toyoda E and Kawaguchi Y.Effect of the XIAP inhibitor embelin on TRAIL induced pancreatic cancer cells, J. Surg. Res., 142, 281–286 (2007).
