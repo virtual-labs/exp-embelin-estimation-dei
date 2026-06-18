@@ -3,65 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TLC Simulation</title>
+<title>Simulation</title>
 
 <style>
 body{
     font-family: "Times New Roman", serif;
-    background:#eee;
+    background:#f2f2f2;
 }
 
 .container{
-    width:700px;
-    margin:80px auto;
-}
-
-h1{
-    margin-bottom:80px;
+    width:800px;
+    margin:40px auto;
+    background:#fff;
+    padding:40px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 .row{
-    display:flex;
-    justify-content:space-between;
-    margin-bottom:50px;
-    font-size:20px;
-}
-
-.form-row{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:20px;
+    margin:20px 0;
 }
 
 label{
-    font-size:20px;
-}
-
-select,
-input{
-    width:250px;
-    padding:6px;
-    font-size:18px;
+    display:inline-block;
+    width:180px;
 }
 
 button{
-    margin-left:380px;
-    padding:8px 20px;
-    font-size:18px;
+    margin-top:15px;
+    padding:4px 12px;
     cursor:pointer;
 }
 
-.result-row{
-    display:flex;
-    justify-content:space-between;
-    margin-top:60px;
-    font-size:20px;
+.result{
+    margin-top:30px;
 }
 
-.note{
-    margin-top:70px;
-    font-size:22px;
+.explanation{
+    display:none;
+    margin-top:80px;
+}
+
+.explanation h2{
+    margin-bottom:30px;
+}
+
+.explanation p{
+    line-height:1.7;
+    text-align:justify;
 }
 </style>
 </head>
@@ -69,71 +57,87 @@ button{
 
 <div class="container">
 
-    <h1>Simulation</h1>
+    <h2>Simulation</h2>
 
     <div class="row">
-        <div>
-            Stationary Phase:
-            <strong>Silica gel</strong>
-        </div>
-
-        <div>
-            Saturation time:
-            <strong>15 minutes</strong>
-        </div>
+        <strong>Stationary Phase:</strong> Silica gel
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong>Saturation time:</strong> 15 minutes
     </div>
 
-    <div class="form-row">
+    <div class="row">
         <label>Solvent System:</label>
 
-        <select id="one">
+        <select name="one" id="one">
             <option>None</option>
-            <option>Toluene: Acetone:: 4:1</option>
-            <option>Toluene: Acetone:: 2:1</option>
-            <option>Toluene: Acetone:: 1:1</option>
-            <option>Toluene: Acetone:: 6:1</option>
-            <option>Toluene: Acetone:: 9:1</option>
+            <option>n-propanol: n-butanol: ammonia(7:1:4)</option>
+            <option>n-propanol: n-butanol: ammonia(7:1:3)</option>
+            <option>n-propanol: n-butanol: ammonia(7:1:2)</option>
+            <option>n-propanol: n-butanol: ammonia(7:1:1)</option>
         </select>
+
+        <br>
+        <button onclick="showResult()">Submit</button>
     </div>
 
-    <button onclick="showRf()">Submit</button>
+    <div class="result">
+        <p><strong>Optimum Rf:</strong> 0.68</p>
+        <p>
+            <strong>Simulation Rf:</strong>
+            <input type="text" id="rfValue" readonly>
+        </p>
 
-    <div class="result-row">
-
-        <div>
-            <strong>Optimum Rf: 0.13</strong>
-        </div>
-
-        <div>
-            <strong>Simulation Rf:</strong><br><br>
-
-            <input type="text" id="rfResult" readonly>
-        </div>
-
+        <p>RF VALUE IS DEPENDENT ON POLARITY OF SOLVENT SYSTEM</p>
     </div>
 
-    <div class="note">
-        RF VALUE IS DEPENDENT ON POLARITY OF SOLVENT SYSTEM
+    <!-- Hidden initially -->
+    <div class="explanation" id="explanation">
+        <h2>EXPLANATION:</h2>
+
+        <p>
+            Besides other factors, Rf value is dependent on the polarity
+            of the solvent system. It increases with the rise in polarity
+            while showing decreasing trend with the lowering of the
+            polarity of the solvent system. As the solvent system moves
+            over the surface of the stationary phase, it transports the
+            analytes over the particles of the stationary phase.
+        </p>
+
+        <p>
+            If a highly polar solvent is used, it will interact strongly
+            with the molecules of stationary phase and will leave only
+            few sites on the surface of stationary phase, free to bind
+            with the analytes. The analytes will therefore move quickly
+            over the stationary phase.
+        </p>
+
+        <p>
+            Similarly, polar groups in the solvent can interact strongly
+            with polar functionality in the analytes and prevent
+            interaction of the analytes with the surface of the
+            stationary phase.
+        </p>
     </div>
 
 </div>
 
 <script>
-function showRf() {
+function showResult() {
 
     const solvent = document.getElementById("one").value;
-    const resultBox = document.getElementById("rfResult");
+    const rfBox = document.getElementById("rfValue");
 
     const rfValues = {
-        "None": "",
-        "Toluene: Acetone:: 4:1": "0.13",
-        "Toluene: Acetone:: 2:1": "0.25",
-        "Toluene: Acetone:: 1:1": "0.42",
-        "Toluene: Acetone:: 6:1": "0.09",
-        "Toluene: Acetone:: 9:1": "0.05"
+        "n-propanol: n-butanol: ammonia(7:1:4)": "0.68",
+        "n-propanol: n-butanol: ammonia(7:1:3)": "0.62",
+        "n-propanol: n-butanol: ammonia(7:1:2)": "0.57",
+        "n-propanol: n-butanol: ammonia(7:1:1)": "0.52"
     };
 
-    resultBox.value = rfValues[solvent] || "";
+    rfBox.value = rfValues[solvent] || "";
+
+    // Show explanation after submit
+    document.getElementById("explanation").style.display = "block";
 }
 </script>
 
