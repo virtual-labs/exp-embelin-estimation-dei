@@ -87,36 +87,55 @@
 
 Use of pre-coated silica gel HPTLC plates with n propanol :n butanol : ammonia :: ,7: 1: 4 ,resulted in good separation of the embelin at 333nm (Rf = 0.68). The absence of additional peaks in chromatogram indicates non- interference of the common excipients used. Regression analysis of the calibration data for caffeine showed that the dependent variable (peak area) and the independent variable (concentration) were represented by the equations Y = – 191.213 + 2.518 x for embelin in Embelia ribes and tamarind. The correlation of coefficient (r2) obtained was 0.99971 shows a good linear relationship.
 
-![Project Screenshot](images/obs_exp9_1.jpg)
 
-Fig. 1: Image at 254nm
+<div align="center">
+  <img src="images/obs_exp9_1.jpg" alt="Image at 254 nm" width="500">
 
+  **Fig. 1: Image at 254 nm**
+</div>
 
-![Project Screenshot](images/obs_exp9_2.jpg)
+<br>
 
-Fig. 2: Image at 366 nm
+<div align="center">
+  <img src="images/obs_exp9_2.jpg" alt="Image at 366 nm" width="500">
 
+  **Fig. 2: Image at 366 nm**
+</div>
 
-![Project Screenshot](images/obs_exp9_3.jpg)
+<br>
 
-Fig. 3: 3D view of Embelin in different samples
+<div align="center">
+  <img src="images/obs_exp9_3.jpg" alt="3D view of Embelin" width="500">
 
+  **Fig. 3: 3D View of Embelin in Different Samples**
+</div>
 
-![Project Screenshot](images/obs_exp9_4.jpg)
+<br>
 
-Fig. 4: Chromatogram for embelin
+<div align="center">
+  <img src="images/obs_exp9_4.jpg" alt="Chromatogram for Embelin" width="500">
 
+  **Fig. 4: Chromatogram for Embelin**
+</div>
 
-![Project Screenshot](images/obs_exp9_5.jpg)
+<br>
 
-Fig. 5: Linearity graph for Embelin
+<div align="center">
+  <img src="images/obs_exp9_5.jpg" alt="Linearity Graph for Embelin" width="500">
 
+  **Fig. 5: Linearity Graph for Embelin**
+</div>
 
-### Results:
+### Results
 
-**Table 1: Quantification of the Embelin values in Samples**
+<div align="center">
 
-| S. No. | Sample        | Amount of Embelin (mg/kg) |
-|---------|--------------|---------------------------|
-| 1       | Embelia ribes | 1.939                     |
-| 2       | Tamarind      | 1.073                     |
+**Table 1: Quantification of Embelin Values in Samples**
+
+| S. No. | Sample | Amount of Embelin (mg/kg) |
+|:------:|:-------|:-------------------------:|
+| 1 | Embelia ribes | 1.939 |
+| 2 | Tamarind | 1.073 |
+
+</div>
+
