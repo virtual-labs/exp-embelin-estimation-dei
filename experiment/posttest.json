@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Embelin is found in",
+      "question": "1. Embelin is found in",
       "answers": {
         "a": "Kali mirch",
         "b": "Green chilly",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Embelia ribes belongs to family",
+      "question": "2. Embelia ribes belongs to family",
       "answers": {
         "a": "Myrsinaceae",
         "b": "Asteraceae",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
      {
-      "question": "The adjacent quinone and hydroquinone groups on embelin form",
+      "question": "3. The adjacent quinone and hydroquinone groups on embelin form",
       "answers": {
         "a": "Intramolecular hydrogen bonds",
         "b": "Intermolecular hydrogen bonds",
@@ -53,7 +53,7 @@
       "difficulty": "beginner"
     },
      {
-      "question": "Embelin posses",
+      "question": "4. Embelin posses",
       "answers": {
         "a": "Antimicrobial",
         "b": "Analgesic",
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
      {
-      "question": "HPTLC is superior to TLC due to",
+      "question": "5. HPTLC is superior to TLC due to",
       "answers": {
         "a": "Low maintenance cost",
         "b": "Lower analysis time",
