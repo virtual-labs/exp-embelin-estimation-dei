@@ -18,7 +18,10 @@ Embelin, (2, 5-dihydroxy-3-undecyl-p-benzoquinone), is a naturally occuring alky
 Benzoquinones are the simplest representatives of quinone group. Embelin
 (derivative of benzoquinone) is found to be the active principle of Embelia ribes. Embelin is a pharmacologically active substance and posses antifertility (3), analgesic (4), anthelmintic (5), antimicrobial (6), anti-inflammatory, antioxidant and antitumour properties (7).
 
-![Project Screenshot](images/theory_Exp_9.jpg)
+
+<div align="center">
+  <img src="images/theory_Exp_9.jpg" alt="Theory Image" width="600">
+</div>
 
 Embelin has a long alkyl chain (undecyl) as a substituent, which confers solubility in the non-polar phase and cell permeability. The adjacent quinone and hydroquinone groups on embelin form intramolecular hydrogen bonds. It is insoluble in water and soluble in alcohol, chloroform and benzene.
 
