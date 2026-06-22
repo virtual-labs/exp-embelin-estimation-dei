@@ -6,69 +6,192 @@
 <title>Simulation</title>
 
 <style>
-body{
-    font-family: "Times New Roman", serif;
-    background:#f2f2f2;
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f0f9ff);
 }
 
-.container{
-    width:800px;
-    margin:40px auto;
-    background:#fff;
-    padding:40px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
 
-.row{
-    margin:20px 0;
+h1 {
+    text-align: center;
+    color: #0f172a;
+    border-bottom: 3px solid #2563eb;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
 }
 
-label{
-    display:inline-block;
-    width:180px;
+.video-section {
+    width: 70%;
+    margin: 0 auto 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
 
-button{
-    margin-top:15px;
-    padding:4px 12px;
-    cursor:pointer;
+.video-section video {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
 }
 
-.result{
-    margin-top:30px;
+.row:first-of-type {
+    background: #f8fafc;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
 }
 
-.explanation{
-    display:none;
-    margin-top:80px;
+.row {
+    margin: 25px 0;
 }
 
-.explanation h2{
-    margin-bottom:30px;
+label {
+    display: inline-block;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e293b;
 }
 
-.explanation p{
-    line-height:1.7;
-    text-align:justify;
+select {
+    width: 450px;
+    padding: 12px;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    background: #f8fafc;
+    font-size: 15px;
 }
 
-.video-section{
-    text-align:center;
-    margin-bottom:40px;
+select:focus {
+    outline: none;
+    border-color: #2563eb;
 }
 
-.video-section video{
-    max-width:100%;
-    border:1px solid #ccc;
+button {
+    margin-top: 15px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(37,99,235,.4);
+}
+
+.result {
+    margin-top: 40px;
+}
+
+.result table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.result td {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #2563eb;
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+
+input[type="text"] {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid #cbd5e1;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.result p {
+    margin-top: 30px;
+    padding: 15px;
+    background: #dbeafe;
+    color: #1e40af;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.explanation {
+    display: none;
+    margin-top: 60px;
+    background: #eff6ff;
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 8px solid #2563eb;
+}
+
+.explanation h2 {
+    color: #1e40af;
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.explanation p {
+    line-height: 1.9;
+    color: #334155;
+    font-size: 17px;
+    text-align: justify;
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .video-section {
+        width: 95%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .result table,
+    .result tr,
+    .result td {
+        display: block;
+        width: 100%;
+    }
+
+    .result td {
+        margin-bottom: 15px;
+    }
 }
 </style>
 </head>
 <body>
 
 <div class="container">
- <h1>Animation</h1>
+    <h1>Animation</h1>
 
-    <!-- Experiment Animation Video -->
     <div class="video-section">
         <video width="700" controls>
             <source src="images/Final_Exp9.mp4" type="video/mp4">
@@ -85,7 +208,6 @@ button{
 
     <div class="row">
         <label>Solvent System:</label>
-
         <select name="one" id="one">
             <option>None</option>
             <option>n-propanol: n-butanol: ammonia(7:1:4)</option>
@@ -93,25 +215,27 @@ button{
             <option>n-propanol: n-butanol: ammonia(7:1:2)</option>
             <option>n-propanol: n-butanol: ammonia(7:1:1)</option>
         </select>
-
         <br>
         <button onclick="showResult()">Submit</button>
     </div>
 
     <div class="result">
-        <p><strong>Optimum Rf:</strong> 0.68</p>
-        <p>
-            <strong>Simulation Rf:</strong>
-            <input type="text" id="rfValue" readonly>
-        </p>
-
-        <p>RF VALUE IS DEPENDENT ON POLARITY OF SOLVENT SYSTEM</p>
+        <table>
+            <tr>
+                <td>
+                    <strong>Optimum Rf:</strong> 0.68
+                </td>
+                <td>
+                    <strong>Simulation Rf:</strong><br><br>
+                    <input type="text" id="rfValue" readonly>
+                </td>
+            </tr>
+        </table>
+        <p><strong>RF VALUE IS DEPENDENT ON POLARITY OF SOLVENT SYSTEM</strong></p>
     </div>
 
-    <!-- Hidden initially -->
     <div class="explanation" id="explanation">
         <h2>EXPLANATION:</h2>
-
         <p>
             Besides other factors, Rf value is dependent on the polarity
             of the solvent system. It increases with the rise in polarity
@@ -120,7 +244,6 @@ button{
             over the surface of the stationary phase, it transports the
             analytes over the particles of the stationary phase.
         </p>
-
         <p>
             If a highly polar solvent is used, it will interact strongly
             with the molecules of stationary phase and will leave only
@@ -128,7 +251,6 @@ button{
             with the analytes. The analytes will therefore move quickly
             over the stationary phase.
         </p>
-
         <p>
             Similarly, polar groups in the solvent can interact strongly
             with polar functionality in the analytes and prevent
@@ -141,7 +263,6 @@ button{
 
 <script>
 function showResult() {
-
     const solvent = document.getElementById("one").value;
     const rfBox = document.getElementById("rfValue");
 
@@ -152,10 +273,13 @@ function showResult() {
         "n-propanol: n-butanol: ammonia(7:1:1)": "0.52"
     };
 
-    rfBox.value = rfValues[solvent] || "";
-
-    // Show explanation after submit
-    document.getElementById("explanation").style.display = "block";
+    if (solvent !== "None" && rfValues[solvent]) {
+        rfBox.value = rfValues[solvent];
+        document.getElementById("explanation").style.display = "block";
+    } else {
+        rfBox.value = "";
+        document.getElementById("explanation").style.display = "none";
+    }
 }
 </script>
 
