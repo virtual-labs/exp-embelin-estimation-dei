@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. f value is less than one because",
+      "question": "1. Rf value is less than one because-",
       "answers": {
         "a": "Distance covered by the solute is more than solvent front",
         "b": "Distance covered by solvent front is more than distance covered by solute",
@@ -10,44 +10,44 @@
         "d": "None of them"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "2. Rf value is closed to 1, then what happened",
-      "answers": {
-        "a": "Good Separation occurs  ",
-        "b": "No Separation occurs",
-        "c": "Separation doesnot depend on Rf ",
-        "d": "None of them"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. If the solute travels more than the solvent front, Rf would be greater than 1, which is impossible.",
+        "b": "Correct. Rf = distance traveled by solute / distance traveled by solvent front. Since the solvent front always travels further than the solute, Rf is always less than 1.",
+        "c": "Incorrect. Only the distance covered by solvent front being more than the solute is correct.",
+        "d": "Incorrect. Option b is the correct explanation."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "3. Rf value is affected by",
+      "question": "2. Rf value is close to 1, then what happens?",
       "answers": {
-        "a": "Polarity of solvent ",
+        "a": "Good Separation occurs",
+        "b": "No Separation occurs",
+        "c": "Separation does not depend on Rf",
+        "d": "None of them"
+      },
+      "explanations": {
+        "a": "Incorrect. When Rf is close to 1, the compound moves almost with the solvent front, leading to poor separation.",
+        "b": "Correct. When Rf is close to 1, the compound has very low affinity for the stationary phase and moves almost with the solvent front, resulting in no or poor separation.",
+        "c": "Incorrect. Rf values are critical for determining separation in TLC.",
+        "d": "Incorrect. Option b is the correct answer."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Rf value is affected by-",
+      "answers": {
+        "a": "Polarity of solvent",
         "b": "Saturation period of chamber",
         "c": "pH of the solution",
         "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incomplete. While solvent polarity affects Rf, other factors also influence it.",
+        "b": "Incomplete. Chamber saturation affects Rf values, but other factors also matter.",
+        "c": "Incomplete. pH can affect the ionization of compounds and thus Rf, but other factors are also involved.",
+        "d": "Correct. All of these factors—solvent polarity, chamber saturation, and pH—affect Rf values."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -61,10 +61,10 @@
         "d": "All above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Increasing the polarity of the solvent would make the spots move even higher, worsening the problem.",
+        "b": "Correct. Decreasing the polarity of the solvent will reduce the mobility of the compound, bringing the spots lower on the plate.",
+        "c": "Incorrect. Increasing plate size does not solve the problem of spots being too near the solvent front.",
+        "d": "Incorrect. Only decreasing the polarity of the solvent is the correct approach."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -74,14 +74,14 @@
       "answers": {
         "a": "Yes, always",
         "b": "Yes, sometimes",
-        "c": "No ",
+        "c": "No",
         "d": "None"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. Impurities do not always affect Rf values; it depends on the nature of the impurities and the system.",
+        "b": "Correct. Impurities can sometimes affect Rf values if they interact with the compound or alter the mobile/stationary phase properties, but not always.",
+        "c": "Incorrect. Impurities can affect Rf values in certain situations.",
+        "d": "Incorrect. Option b is the correct answer."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
