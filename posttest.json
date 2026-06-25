@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Embelin is found in-",
+      "answers": {
+        "a": "Kali mirch",
+        "b": "Green chilly",
+        "c": "Red chilly",
+        "d": "Capsicum"
+      },
+      "explanations": {
+        "a": "Correct. Embelin is the active constituent found in Kali mirch (Embelia ribes), also known as False Black Pepper.",
+        "b": "Incorrect. Green chilly does not contain embelin.",
+        "c": "Incorrect. Red chilly does not contain embelin.",
+        "d": "Incorrect. Capsicum does not contain embelin."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Embelia ribes belongs to family-",
+      "answers": {
+        "a": "Myrsinaceae",
+        "b": "Asteraceae",
+        "c": "Poaceae",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Correct. Embelia ribes belongs to the family Myrsinaceae (also known as Primulaceae subfamily Myrsinoideae).",
+        "b": "Incorrect. Asteraceae is the family of sunflower and daisy plants.",
+        "c": "Incorrect. Poaceae is the grass family.",
+        "d": "Incorrect. Option a is the correct answer."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The adjacent quinone and hydroquinone groups on embelin form-",
+      "answers": {
+        "a": "Intramolecular hydrogen bonds",
+        "b": "Intermolecular hydrogen bonds",
+        "c": "Covalent bond",
+        "d": "Coordinate bond"
+      },
+      "explanations": {
+        "a": "Correct. The adjacent quinone and hydroquinone groups in embelin form intramolecular hydrogen bonds, which contribute to its characteristic properties.",
+        "b": "Incorrect. These are intramolecular (within the same molecule), not intermolecular (between different molecules) hydrogen bonds.",
+        "c": "Incorrect. Hydrogen bonds are formed, not covalent bonds.",
+        "d": "Incorrect. Coordinate bonds involve electron pair donation from one atom to another, not applicable here."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Embelin possesses-",
+      "answers": {
+        "a": "Antimicrobial",
+        "b": "Analgesic",
+        "c": "Antioxidant",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Incomplete. While embelin has antimicrobial properties, it also has other pharmacological activities.",
+        "b": "Incomplete. While embelin has analgesic properties, it also has other pharmacological activities.",
+        "c": "Incomplete. While embelin has antioxidant properties, it also has other pharmacological activities.",
+        "d": "Correct. Embelin possesses multiple pharmacological activities including antimicrobial, analgesic, antioxidant, anti-inflammatory, and anticancer properties."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. HPTLC is superior to TLC due to-",
+      "answers": {
+        "a": "Low maintenance cost",
+        "b": "Lower analysis time",
+        "c": "Accuracy & precision of quantification is high",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "Incomplete. While low maintenance cost is an advantage, HPTLC offers additional benefits over conventional TLC.",
+        "b": "Incomplete. While lower analysis time is an advantage, HPTLC offers additional benefits over conventional TLC.",
+        "c": "Incomplete. While high accuracy and precision in quantification is a key advantage, HPTLC offers additional benefits over conventional TLC.",
+        "d": "Correct. HPTLC is superior to TLC due to all of these advantages: low maintenance cost, lower analysis time, and high accuracy & precision of quantification."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
